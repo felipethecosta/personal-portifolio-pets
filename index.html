@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Estudo</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Felipe Portifólio HTML CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
-    <h1 class="hello">Hello, World!</h1>
-   
-    <img class="img-in-text" src="./img/maritacas1.png" alt="maritacas1">
+    <header class="header">
+        <a href="#" class="logo">Felipe.</a>
+                                                <!-- Navegação do site. Olha as especificações de classes com o CSS. Para entender a junção. -->
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Sobre mim</a>
+            <a href="#">Services</a>
+            <a href="#">Portifólio</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+                                                <!-- Descrição da home-page do site, juntamente com o CSS estilizado. -->
+    <section class="home">
+        <div class="home-content">
+            <h1>Olá, me chamo Felipe Costa.</h1>
+            <h3>Frontend Developer Internt</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore minima numquam alias ab iusto culpa minus, corrupti voluptas dignissimos aspernatur veritatis expedita possimus? Culpa ducimus, beatae consequatur aliquam reiciendis officiis.</p>
+        <div class="btn-box">
+                                                            <!-- Formulário e também forma de contato pela home-page. -->
+            <a href="#">Hire me</a>
+            <a href="#">Let's Talk!</a>
+        </div>
+        </div>
+        
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
 
+
+        <span class="home-imgHover"></span>
+    </section>
 </body>
-</html> 
+</html>
